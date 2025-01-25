@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in | Flickr</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: url(../images/671aa7eff07f0c7184400c69_stats-light.avif);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: auto;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .login_container {
+            background-color: #ffffff;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            width: 90%;
+            text-align: center;
+        }
+
+        .login_container h4 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: #333333;
+        }
+
+        .login_container label {
+            display: block;
+            margin-bottom: 1rem;
+            width: 100%;
+        }
+
+        .login_container input {
+            width: 100%;
+            padding: 0.8rem;
+            font-size: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            outline: none;
+        }
+
+        .login_container input:focus {
+            border-color: blue;
+        }
+
+        .login_container button {
+            background-color:blue;
+            color: #ffffff;
+            border: none;
+            padding: 0.8rem 1rem;
+            border-radius: 8px;
+            font-size: 1rem;
+            cursor: pointer;
+            width: 100%;
+            margin-top: 1rem;
+        }
+
+        .login_container button:hover {
+            background-color: blue;
+        }
+
+        .signuplink {
+            margin-top: 1.5rem;
+        }
+
+        .signuplink p {
+            font-size: 0.9rem;
+            color: #666666;
+        }
+
+        .signuplink a {
+            color: blue;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .signuplink a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 600px) {
+            .login_container {
+                padding: 1.5rem;
+            }
+
+            .login_container h4 {
+                font-size: 1.2rem;
+            }
+
+            .login_container button {
+                font-size: 0.9rem;
+                padding: 0.7rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="login_container">
+        <h4>Log in to Creater</h4>
+        
+        <label>
+            <input type="email" name="email" placeholder="Enter your email" required>
+        </label>
+        
+        <button>LOG IN</button>
+        
+        <div class="signuplink">
+            <p>Not a Creater member?</p>
+            <a href="./signup.html">Sign up here</a>
+        </div>
+    </div>
+</body>
+</html>
