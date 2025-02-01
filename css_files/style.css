@@ -16,6 +16,9 @@ body{
     background-color:  rgb(200, 200, 200);
     align-content: baseline ;
     box-shadow: 0px 2px 4px #666666; 
+    position: fixed;
+    width: 100%;
+    top: 0%;
     
 }
 .blue{
@@ -65,7 +68,6 @@ body{
 }
 
 
-/* ------ */
 .search {
     display: flex;
     align-items: center;
@@ -210,6 +212,7 @@ main{
 .head1{
     margin-bottom: 5rem;
     display: flex;
+    margin-top: 5rem ;
 
 }
 .text1 p{
